@@ -1,0 +1,21 @@
+.pagina{
+    border: 1 solid dimgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: dimgray;
+    box-shadow: 0 8px 8px 0 dimgray;
+}
+#contenedor-imagenes {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+#contenedor-imagenes img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+}
+
